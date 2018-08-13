@@ -1,0 +1,92 @@
+.my-a{
+	color:#fff!important;
+	padding: 10px;
+}
+
+.my-a:hover{
+	text-decoration:none;
+}
+
+
+.container{
+	background-color: #DDD;
+	min-height: 100%;
+}
+
+.home-btn{
+	background-color: #3FB543;
+	padding: 20px;
+	max-width:30%;
+	text-align: center;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.home-btn:hover{
+	text-decoration: none;
+	background-color: #3FB520;
+	padding: 20px;
+	max-width:30%;
+	text-align: center;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #fff!important;
+	font-weight: bold;
+}
+
+.input{
+	padding: 5px;
+}
+
+.submit-btn{
+	border:none;
+	background-color: #066C02;
+	color: #fff;
+	padding: 10px;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.submit-btn:hover{
+	cursor: pointer;
+	background-color: #060002;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.msg-sucesso, .msg-erro{
+	text-align: center;
+}
+
+.produto-nome{
+	font-weight: bold;
+}
+
+.my-table{
+	border:1px solid #000;
+	width: 100%;
+}
+
+.my-table tr:nth-child(odd){
+	background:#A6FAA3;
+}
+
+.my-table tr:nth-child(even){
+	background:#E3E9E3;
+}
+
+.celula-preco{
+	text-align: right;
+}
